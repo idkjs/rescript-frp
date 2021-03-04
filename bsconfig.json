@@ -1,0 +1,24 @@
+{
+  "name": "rescript-frp",
+  "version": "1.2.1",
+  "sources": [
+    {
+      "dir": "react/src",
+      "files":["react.ml","react.mli"]
+    },
+    {"dir":"weak"}
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+
+  ],
+  "warnings": {
+    "error" : "-27"
+  },
+  "namespace": true,
+  "refmt": 3
+}
